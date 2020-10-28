@@ -1,0 +1,178 @@
+@media (max-width: 1366px)
+{
+    .col-lg-8
+    {
+        left: 1rem;
+    }
+
+    .col-lg-8 h1
+    {
+        font-size: 60px;
+    }
+
+    .col-lg-8 h2
+    {
+        font-size: 52px;
+        width: 525px;
+    }
+}
+
+@media (max-width: 991.5px)
+{
+    .head-custom-nav #navbarNav .navbar-nav .nav-item .nav-link
+    {
+        padding: 7.5px;
+    }
+
+    .custom-section
+    {
+        flex-direction: column-reverse;
+    }
+
+    .col-lg-4
+    {
+        width: 50%;
+        position: relative;
+        top: 10rem;
+        right: 0;
+    }
+
+    .col-lg-8
+    {
+        top: 30rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media (max-width: 770px)
+{
+    .col-lg-4
+    {
+        top: 9rem;
+    }
+
+    .col-lg-8
+    {
+        top: 21rem;
+    }
+
+    .col-lg-8 h1
+    {
+        font-size: 50px;
+    }
+
+    .col-lg-8 h2
+    {
+        font-size: 42px;
+        width: 430px;
+    }
+}
+
+@media (max-width: 520px)
+{
+    .logo-scale
+    {
+        width: 56.5865px;
+        height: 64px;
+    }
+
+    .col-lg-4
+    {
+        top: 8rem;
+    }
+
+    .col-lg-8
+    {
+        top: 18rem;
+    }
+
+    .col-lg-8 h1
+    {
+        font-size: 40px;
+    }
+
+    .col-lg-8 h2
+    {
+        font-size: 34px;
+        width: 350px;
+    }
+
+    .col-lg-8 p
+    {
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.75px;
+    }
+}
+
+@media (max-width: 480px)
+{
+    .col-lg-8
+    {
+        top: 16rem;
+    }
+}
+
+@media (max-width: 410px)
+{
+    .col-lg-8 h1
+    {
+        font-size: 32px;
+    }
+
+    .col-lg-8 h2
+    {
+        font-size: 27px;
+        width: 280px;
+    }
+
+    .col-lg-8 p
+    {
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
+
+    .col-lg-8
+    {
+        top: 12.5rem;
+    }
+}
+
+@media (max-width: 340px)
+{
+    .head-custom-nav #navbarNav .navbar-nav .nav-item .nav-link
+    {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    .col-lg-8 h1
+    {
+        font-size: 24px;
+    }
+
+    .col-lg-8 h2
+    {
+        font-size: 19px;
+        width: 210px;
+    }
+
+    .col-lg-8 p
+    {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+    }
+
+    .col-lg-8
+    {
+        top: 10rem;
+    }
+
+    .col-lg-8 a
+    {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+}

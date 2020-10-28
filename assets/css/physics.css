@@ -1,0 +1,419 @@
+body
+{
+    background-color: #fafafa;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+/* NAVIGATION */
+
+.logo-scale
+{
+    width: 84.87975px;
+    height: 96px;
+}
+
+.head-custom-nav #navbarNav .navbar-nav .nav-item .nav-link
+{
+    color: #00202A;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: 1s cubic-bezier(0.785, 0.135, 0.15, 0.85);
+}
+
+.head-custom-nav #navbarNav .navbar-nav .nav-item .nav-link:hover
+{
+    color: #3FA9F5;
+}
+
+.dropdown-item
+{
+    text-transform: uppercase;
+}
+
+/* CATEGORY */
+
+.custom-section
+{
+    position: relative;
+    width: inherit;
+    padding: 40px 0;
+    padding-bottom: 4rem;
+}
+
+.col-lg-8
+{
+    top: 2.5rem;
+    left: -5rem;
+}
+
+.col-lg-8 h2
+{
+    font-weight: 200;
+    font-size: 62px;
+    border-radius: 0px;
+    color: white;
+    background-image: linear-gradient(to right, #3FA9F5, #662D91);
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 450px;
+    text-align: center;
+}
+
+.col-lg-8 p
+{
+    color: #00202a;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: justify;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+
+.col-lg-8 a
+{
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-image: linear-gradient(to right, #3FA9F5, #662D91);
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.85);
+}
+
+.col-lg-8 a:hover
+{
+    border: 3px solid #3FA9F5;
+    background-image: none;
+    background-color: white;
+    color: #3FA9F5;
+    text-underline-position: 0;
+}
+
+.col-lg-4 img
+{
+    width: 100%;
+    position: absolute;
+    top: -12.5rem;
+    right: -10%;
+}
+
+/* POST */
+
+.section-title
+{
+    position: relative;
+}
+
+h2.section-title-heading
+{
+    color: #00202a;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    font-size: 1.8rem;
+}
+
+.section-title::after
+{
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #3FA9F5;
+    width: 12%;
+    top: 80px;
+}
+
+.section-title:hover::after
+{
+    width: 24%;
+    transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -webkit-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+}
+
+#article
+{
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+#article h3
+{
+    color: #00202a;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding-top: 1.5rem;
+}
+
+#article p
+{
+    color: #00202a;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    text-align: justify;
+}
+
+#article .col-md-4 p a
+{
+    color: #3FA9F5;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 1s;
+}
+
+#article .col-md-4 p a:hover
+{
+    color: #662D91;
+    text-decoration: none;
+}
+
+.image-scale
+{
+    width: 320px;
+    height: 180px;
+}
+
+/* FOOTER */
+
+#footer
+{
+    background-image: linear-gradient(to right, #3FA9F5, #662D91);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: relative;
+}
+
+.footer-image-scale
+{
+    width: 240px;
+    height: 48px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1366px)
+{
+    .col-lg-8
+    {
+        left: 1rem;
+    }
+
+    .col-lg-8 h2
+    {
+        font-size: 52px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 1199.5px)
+{
+    .image-scale
+    {
+        width: 240px;
+        height: 135px;
+    }
+}
+
+@media (max-width: 991.5px)
+{
+    .head-custom-nav #navbarNav .navbar-nav .nav-item .nav-link
+    {
+        padding: 7.5px;
+    }
+
+    .custom-section
+    {
+        flex-direction: column-reverse;
+    }
+
+    .col-lg-4
+    {
+        width: 50%;
+        position: relative;
+        top: 10rem;
+        right: 0;
+    }
+
+    .col-lg-8
+    {
+        top: 22.5rem;
+        padding-bottom: 2rem;
+    }
+
+    #article
+    {
+        top: 17.5rem;
+    }
+
+    #footer
+    {
+        top: 17.5rem;
+    }
+
+    .image-scale
+    {
+        width: 200px;
+        height: 112.5px;
+    }
+}
+
+@media (max-width: 770px)
+{
+    .col-lg-4
+    {
+        top: 9rem;
+    }
+
+    .col-lg-8
+    {
+        top: 15rem;
+    }
+
+    .col-lg-8 h2
+    {
+        font-size: 42px;
+        width: 280px;
+    }
+
+    #article
+    {
+        top: 12.5rem;
+    }
+
+    #footer
+    {
+        top: 12.5rem;
+    }
+
+    .image-scale
+    {
+        width: 320px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 520px)
+{
+    .logo-scale
+    {
+        width: 56.5865px;
+        height: 64px;
+    }
+
+    .col-lg-4
+    {
+        top: 8rem;
+    }
+
+    .col-lg-8
+    {
+        top: 12.5rem;
+    }
+
+    .col-lg-8 h2
+    {
+        font-size: 34px;
+        width: 240px;
+    }
+
+    .col-lg-8 p
+    {
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.75px;
+    }
+
+    #article
+    {
+        top: 7.5rem;
+    }
+
+    #footer
+    {
+        top: 7.5rem;
+    }
+}
+
+@media (max-width: 480px)
+{
+    .col-lg-8
+    {
+        top: 10rem;
+    }
+}
+
+@media (max-width: 410px)
+{
+    .col-lg-8 h2
+    {
+        font-size: 27px;
+        width: 190px;
+    }
+
+    .col-lg-8 p
+    {
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
+
+    .col-lg-8
+    {
+        top: 7.5rem;
+    }
+
+    #article
+    {
+        top: 2.5rem;
+    }
+
+    #footer
+    {
+        top: 2.5rem;
+    }
+}
+
+@media (max-width: 340px)
+{
+    .head-custom-nav #navbarNav .navbar-nav .nav-item .nav-link
+    {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    .col-lg-8 h2
+    {
+        font-size: 19px;
+        width: 140px;
+    }
+
+    .col-lg-8 p
+    {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+    }
+
+    .col-lg-8
+    {
+        top: 6rem;
+    }
+
+    .col-lg-8 a
+    {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+}

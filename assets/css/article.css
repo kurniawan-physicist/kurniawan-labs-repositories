@@ -1,0 +1,176 @@
+body
+{
+    background-color: #fafafa;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+/* NAVIGATION */
+
+.logo-scale
+{
+    width: 84.87975px;
+    height: 96px;
+}
+
+.head-custom-nav #navbarNav .navbar-nav .nav-item .nav-link
+{
+    color: #00202A;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: 1s cubic-bezier(0.785, 0.135, 0.15, 0.85);
+}
+
+.head-custom-nav #navbarNav .navbar-nav .nav-item .nav-link:hover
+{
+    color: #3FA9F5;
+}
+
+.dropdown-item
+{
+    text-transform: uppercase;
+}
+
+/* ARTICLE */
+
+.illustration
+{
+    width: 100%;
+}
+
+.col-lg-12
+{
+    margin-bottom: 2rem;
+}
+
+.topic h1
+{
+    font-weight: 200;
+    font-size: 56px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.col-lg-12 h2
+{
+    color: #00202a;
+    margin-top: 2rem;
+    font-size: 36px;
+}
+
+.col-lg-12 p
+{
+    color: #00202a;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.7rem;
+    text-align: justify;
+}
+
+.col-lg-12 a
+{
+    color:#3FA9F5;
+    transition: 1s;
+}
+
+.col-lg-12 a:hover
+{
+    color: #662D91;
+    text-decoration: none;
+}
+
+p.closing
+{
+    margin-top: 2rem;
+}
+
+/* FOOTER */
+
+#footer
+{
+    background-image: linear-gradient(to right, #3FA9F5, #662D91);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: relative;
+}
+
+.footer-image-scale
+{
+    width: 240px;
+    height: 48px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1366px)
+{
+}
+
+@media (max-width: 1199.5px)
+{
+}
+
+@media (max-width: 991.5px)
+{
+    .head-custom-nav #navbarNav .navbar-nav .nav-item .nav-link
+    {
+        padding: 7.5px;
+    }
+
+    #footer
+    {
+        top: 17.5rem;
+    }
+}
+
+@media (max-width: 770px)
+{
+    #footer
+    {
+        top: 12.5rem;
+    }
+}
+
+@media (max-width: 520px)
+{
+    .logo-scale
+    {
+        width: 56.5865px;
+        height: 64px;
+    }
+
+    .topic h1
+    {
+        font-size: 40px;
+    }
+
+    #footer
+    {
+        top: 7.5rem;
+    }
+}
+
+@media (max-width: 480px)
+{
+}
+
+@media (max-width: 410px)
+{
+    #footer
+    {
+        top: 2.5rem;
+    }
+}
+
+@media (max-width: 340px)
+{
+    .head-custom-nav #navbarNav .navbar-nav .nav-item .nav-link
+    {
+        font-size: 16px;
+        padding: 5px;
+    }
+}
